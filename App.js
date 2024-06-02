@@ -5,13 +5,13 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const App = () => {
   return (
     <ScrollView style={styles.container}>
-      {/* Header */}
+      
       <View style={styles.header}>
         <View>
           <Text style={styles.greeting}>Hello, Devs</Text>
           <Text style={styles.subtitle}>14 tasks today</Text>
         </View>
-        {/* <Icon name="person-circle" size={40} color="#f59e0b" /> */}
+        
         <Image
             source={require('./assets/person.png')}
             style={styles.userImage}
@@ -27,7 +27,7 @@ const App = () => {
         </View>
         <Icon name="filter" size={24} color="#fff" style={styles.filterIcon} />
       </View>
-    {/* Categories */}
+   
  <Text style={styles.sectionTitle}>Categories</Text>
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={styles.categories}>
         <View style={styles.categoryCard}>
@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 14,
-    // color: 'gray',
+  
   },
   userImage:{
     backgroundColor: '#fff',
