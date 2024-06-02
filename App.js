@@ -27,6 +27,82 @@ const App = () => {
         </View>
         <Icon name="filter" size={24} color="#fff" style={styles.filterIcon} />
       </View>
+    {/* Categories */}
+ <Text style={styles.sectionTitle}>Categories</Text>
+      <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={styles.categories}>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>Exercise</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/young woman working online.png')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>Study</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/young woman working at desk.png')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>cook</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/cook.jpg')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>Design</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/design.jpg')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>Performance</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/Perf.jpg')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>Code</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/code.jpg')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>security</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/secure.jpg')}
+            style={styles.categoryImg}
+          />
+        </View>
+        <View style={styles.categoryCard}>
+          
+          <Text style={styles.categoryText}>Test</Text>
+          <Text style={styles.taskCount}>12 Tasks</Text>
+          <Image
+            source={require('./assets/test.jpg')}
+            style={styles.categoryImg}
+          />
+        </View>
+      </ScrollView>
 
 
     </ScrollView>
@@ -93,7 +169,35 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     paddingLeft: 13
   },
-
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 8,
+    marginLeft: 16,
+  },
+  categories: {
+    flexDirection: 'row',
+    marginBottom: 26,
+    paddingLeft: 16,
+  },
+  categoryCard: {
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    padding: 6,
+    width: 186,
+    height: 192,
+    marginRight:24,
+  },
+  categoryImg: {
+    width: 145,
+    height: 138,
+    alignSelf:'center',
+  },
+  categoryText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    paddingLeft: 10
+  },
 });
 
 export default App;
