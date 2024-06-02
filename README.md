@@ -31,8 +31,11 @@ ScrollView: Wraps the entire content to allow scrolling, making the app's conten
  Text component for section title.
  ScrollView enables horizontal scrolling of category cards.
  View components for individuals.
+WEB SCREENSHOT 
 ![Screenshot 2024-06-02 122541](https://github.com/Gabby-OG/rn-assignment3-11222970/assets/148434566/e27fa624-ff50-4852-bd95-68575bd138e6)
 
+PHONE SCREENSHOT
+![Screenshot 2024-06-02 120801](https://github.com/Gabby-OG/rn-assignment3-11222970/assets/148434566/c5008af0-a905-4386-99e3-d66aaa9828b1)
 
 
 
