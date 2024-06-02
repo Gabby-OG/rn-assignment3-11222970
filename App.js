@@ -103,6 +103,52 @@ const App = () => {
           />
         </View>
       </ScrollView>
+      <Text style={styles.sectionTitle}>Ongoing Task</Text>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Mobile App Development</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Web Development</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Push Ups</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>User Interface Design</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Development </Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Bug fixing</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Code Review</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Performance Optimization</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>API integration</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Deployment and integration</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>App security</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Localization and internationalization</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>App submission</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>User Feedbacks</Text>
+      </View>
+      <View style={styles.taskCard}>
+        <Text style={styles.taskText}>Maintenance and updates </Text>
+      </View>
 
 
     </ScrollView>
@@ -198,6 +244,27 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     paddingLeft: 10
   },
+  taskCount: {
+    fontSize: 14,
+    paddingLeft: 10
+  },
+  taskCard: {
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    paddingTop: 45,
+    paddingBottom: 45,
+    paddingLeft: 15,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: '#E8D1BA',
+    marginLeft: 16,
+    marginRight: 16,
+  },
+  taskText: {
+    fontSize: 16,
+    fontWeight: 'bold'
+  },
+
 });
 
 export default App;
